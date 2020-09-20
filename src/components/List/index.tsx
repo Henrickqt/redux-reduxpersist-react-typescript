@@ -1,11 +1,53 @@
 import React from 'react';
 
-import { Container } from './styles';
+import Subject from '../../shared/Subject';
+import Item from '../../shared/Item';
 
-function List() {
+import { Container, Array } from './styles';
+
+interface ListProps {
+  title: string;
+}
+
+const List: React.FC<ListProps> = (props) => {
   return (
     <Container>
-      Container
+      <Subject title={props.title}>
+        <Array>
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+          <Item />
+        </Array>
+      </Subject>
     </Container>
   );
 }

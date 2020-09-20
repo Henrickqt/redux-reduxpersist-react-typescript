@@ -6,3 +6,18 @@ export const Container = styled.div`
   padding: 20px;
   background-color: var(--color-box-background);
 `;
+
+export const Array = styled.div`
+  height: 446px;
+  overflow-y: auto;
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    border-right: 1px dashed var(--color-background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: var(--color-background);
+  }
+`;
