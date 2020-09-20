@@ -16,4 +16,5 @@ export const Chart = styled.div`
   border-radius: 4px;
   margin-top: 6px;
   background-color: var(--color-primary);
+  transition: 0.5s ease;
 `;
