@@ -8,16 +8,15 @@ export const Container = styled.div`
 `;
 
 export const Array = styled.div`
-  height: 446px;
+  height: 444px;
   overflow-y: auto;
 
   ::-webkit-scrollbar {
-    width: 6px;
-    border-right: 1px dashed var(--color-background);
+    width: 8px;
+    border-right: 1px dashed var(--color-line);
   }
-
   ::-webkit-scrollbar-thumb {
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: var(--color-background);
   }
 `;

@@ -7,10 +7,10 @@ function Header() {
     <Container>
       <Title>
         <span>#my</span>
-        SHOPPING-LIST
+        Shopping-list
       </Title>
       <Button>
-        CONCLUIR LISTA
+        Concluir lista
       </Button>
     </Container>
   );

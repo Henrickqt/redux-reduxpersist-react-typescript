@@ -12,6 +12,7 @@ const Subject: React.FC<SubjectProps> = (props) => {
       <Title>
         {props.title}
       </Title>
+      
       {props.children}
     </Container>
   );

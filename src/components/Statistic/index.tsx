@@ -8,7 +8,7 @@ import { Container, Value } from './styles';
 function Statistic() {
   return (
     <Container>
-      <Subject title="ESTATÍSTICAS">
+      <Subject title="Estatísticas">
         <LineChart title="Saudável" />
         <LineChart title="Não-saudável" />
         <LineChart title="Cuidados médicos" />
@@ -17,7 +17,7 @@ function Statistic() {
         <LineChart title="Outros" />
       </Subject>
       
-      <Subject title="VALOR TOTAL">
+      <Subject title="Valor total">
         <Value>
           R$ 1458,39
         </Value>

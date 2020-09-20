@@ -15,10 +15,12 @@ export const Title = styled.h1`
   color: var(--color-title);
   font-size: 24px;
   font-weight: 700;
+  text-transform: uppercase;
 
   span {
     padding-right: 8px;
     font-size: 16px;
+    text-transform: lowercase;
   }
 `;
 
@@ -31,6 +33,7 @@ export const Button = styled.button`
   color: var(--color-title);
   font-size: 14px;
   font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   align-items: center;
   justify-content: center;

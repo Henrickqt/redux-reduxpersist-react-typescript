@@ -8,8 +8,8 @@ import { Container } from './styles';
 function Main() {
   return (
     <Container>
-      <List title="PRODUTOS DISPONÍVEIS" />
-      <List title="PRODUTOS SELECIONADOS" />
+      <List title="Produtos disponíveis" />
+      <List title="Produtos selecionados" />
       <Statistic />
     </Container>
   );
