@@ -1,3 +1,25 @@
+#root {
+  --color-primary-lighter: #70DB64;
+  --color-primary-light: #63C258;
+  --color-primary: #56A94D;
+  --color-primary-dark: #498F41;
+  --color-primary-darker: #3C7535;
+  --color-primary-darkest: #2F5C2A;
+
+  /*  */
+
+  --color-background: #11191F;
+  --color-box-background: #18242B;
+
+  --color-line: #263844;
+
+  --color-title: #FFF;
+  --color-subtitle: #DEE6E9;
+
+  --color-item: #C5CCCF;
+  --color-unselected: #ADB3B5;
+}
+
 * {
   margin: 0;
   padding: 0;
