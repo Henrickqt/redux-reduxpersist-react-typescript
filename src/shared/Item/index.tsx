@@ -22,7 +22,10 @@ const Item: React.FC<ItemProps> = (props) => {
     <Container onClick={() => handleToggle(props.id)}>
       <Indicator checked={props.checked} />
       <Label>
-        {props.name}
+        {props.name.length > 16 
+          ? props.name.substring(0, 14).concat('...') 
+          : props.name
+        }
       </Label>
     </Container>
   );
