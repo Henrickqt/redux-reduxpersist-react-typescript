@@ -40,6 +40,12 @@ export const Button = styled.button`
   cursor: pointer;
   transition: background-color 0.2s;
 
+  span {
+    padding-right: 8px;
+    font-size: 20px;
+    display: flex;
+  }
+
   &:hover {
     background-color: var(--color-primary-dark);
   }
