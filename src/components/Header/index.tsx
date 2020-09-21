@@ -9,10 +9,14 @@ import { Container, Title, Button } from './styles';
 
 function Header() {
   const dispatch = useDispatch();
-
   const selectedProducts = useSelector(getSelectedProducts);
 
-  function handleCompleteList() {
+  function changeTheme() {
+    document.getElementById('root')?.classList.toggle('dark-mode');
+    document.getElementById('root')?.classList.toggle('light-mode');
+  }
+
+  function handleResetList() {
     selectedProducts.map((product) => {
       return dispatch(toggleProduct(product.id));
     });
@@ -20,11 +24,11 @@ function Header() {
 
   return (
     <Container>
-      <Title>
+      <Title onClick={changeTheme}>
         <span>#my</span>
-        Shopping-list
+        Shopnlist
       </Title>
-      <Button onClick={handleCompleteList}>
+      <Button onClick={handleResetList}>
         <span>
           <IoMdRefresh />
         </span>

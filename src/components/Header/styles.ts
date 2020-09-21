@@ -15,6 +15,7 @@ export const Title = styled.h1`
   color: var(--color-title);
   font-size: 24px;
   font-weight: 700;
+  cursor: pointer;
   text-transform: uppercase;
 
   span {
@@ -30,7 +31,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 8px;
   background-color: var(--color-primary);
-  color: var(--color-title);
+  color: var(--color-button);
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -38,10 +39,11 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  outline: none;
   transition: background-color 0.2s;
 
   span {
-    padding-right: 8px;
+    padding-right: 12px;
     font-size: 20px;
     display: flex;
   }
