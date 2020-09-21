@@ -4,7 +4,7 @@ This Web App serves as a personal shopping list.
 
 It was developed to learn how to use Redux and Redux Persist in React. Another thing learned was how to create and change themes efficiently.
 
-![](https://github.com/Henrickqt/myshopnlist/blob/master/assets/myshopnlist.gif)
+![](https://raw.githubusercontent.com/Henrickqt/redux-reduxpersist-react-typescript/master/assets/myshopnlist.gif)
 
 ## Web (Frontend)
 
