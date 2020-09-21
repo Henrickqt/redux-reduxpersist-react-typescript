@@ -9,7 +9,7 @@ function Main() {
   return (
     <Container>
       <List title="Produtos disponíveis" />
-      <List title="Produtos selecionados" />
+      <List title="Produtos selecionados" selected />
       <Statistic />
     </Container>
   );

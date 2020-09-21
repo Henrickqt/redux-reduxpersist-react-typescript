@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+interface IndicatorProps {
+  checked: boolean;
+}
+
 export const Container = styled.div`
   border-radius: 6px;
   margin: 8px 0;
@@ -14,13 +18,15 @@ export const Container = styled.div`
   }
 `;
 
-export const Indicator = styled.div`
+export const Indicator = styled.div<IndicatorProps>`
   width: 14px;
   height: 14px;
   border-radius: 50%;
   margin-left: 8px;
   margin-right: 16px;
-  background-color: var(--color-primary);
+  background-color: ${(props) => props.checked 
+    ? 'var(--color-primary)' 
+    : 'var(--color-line)'};
 `;
 
 export const Label = styled.p`

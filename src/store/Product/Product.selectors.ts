@@ -7,22 +7,22 @@ interface Product {
   tags: string[];
 }
 
-interface ProductArray {
+interface Products {
   products: [Product],
 }
 
-export const selectAllProducts = (state: ProductArray) => { 
+export const getProducts = (state: Products) => { 
   return state.products;
 };
 
-export const selectSelectedProducts = (state: ProductArray) => {
-  return selectAllProducts(state)
+export const getSelectedProducts = (state: Products) => {
+  return getProducts(state)
     .filter(product => product.checked === true)
   ;
 }
 
-export const selectTotalPrice = (state: ProductArray) => {
-  return selectSelectedProducts(state)
+export const getTotalPrice = (state: Products) => {
+  return getSelectedProducts(state)
     .reduce((previous, current) => previous + current.price, 0)
   ;
 }

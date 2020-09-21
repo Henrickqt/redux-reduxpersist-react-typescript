@@ -6,19 +6,14 @@
   --color-primary-darker: #3C7535;
   --color-primary-darkest: #2F5C2A;
 
-  /*  */
-
   --color-background: #11191F;
   --color-box-background: #18242B;
-
   --color-line: #263844;
   --color-hover: #1F2E38;
 
   --color-title: #FFFFFF;
   --color-subject: #DEE6E9;
-
   --color-item: #C5CCCF;
-  --color-unselected: #ADB3B5;
 }
 
 * {
